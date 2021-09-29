@@ -389,12 +389,35 @@ img {
 }
 
 /* CLIENTS */
-.clients-title {
+.client-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 
   color: var(--titel-color);
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.client-list .client-item + .client-item {
+  margin-left: 30px;
+}
+
+.client-link {
+}
+.client-icon {
 }
